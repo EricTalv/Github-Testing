@@ -5,9 +5,7 @@ using Android.Content;
 
 namespace Github_Testing
 {
-    [Activity(Icon = "@drawable/ic_launcher", Label = "MAGIC 8BALL",
-       MainLauncher = true, Theme = "@android:style/Theme.Material.NoActionBar",
-         ScreenOrientation = Android.Content.PM.ScreenOrientation.Portrait, NoHistory = true)]
+    [Activity(Icon = "@drawable/ic_launcher", Label = "MAGIC 8BALL", NoHistory = true)]
     public class MainActivity : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
