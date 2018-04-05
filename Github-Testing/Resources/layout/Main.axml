@@ -5,31 +5,18 @@
     android:minWidth="25px"
     android:minHeight="25px">
     <Button
-        android:text="Go to Third"
-        android:layout_width="190.0dp"
-        android:layout_height="wrap_content"
-        android:id="@+id/button3"
-        android:layout_above="@+id/button1"
-        android:layout_centerHorizontal="true" />
+        android:text="First"
+        android:id="@+id/GoToFirst"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        style="@style/redbutton_style"
+        android:background="@drawable/button_style" />
     <Button
-        android:text="Go to Second"
-        android:layout_width="190.0dp"
-        android:layout_height="wrap_content"
-        android:id="@+id/button1"
-        android:layout_alignParentRight="true"
-        android:layout_centerVertical="true" />
-    <Button
-        android:text="Go to Third"
-        android:layout_width="190.0dp"
-        android:layout_height="wrap_content"
-        android:id="@+id/button2"
-        android:layout_alignParentLeft="true"
-        android:layout_centerVertical="true" />
-    <Button
-        android:text="Go to Fourth"
-        android:layout_width="190.0dp"
-        android:layout_height="wrap_content"
-        android:id="@+id/button4"
-        android:layout_below="@+id/button2"
-        android:layout_centerHorizontal="true" />
+        android:text="Second"
+        android:id="@+id/GoToSecond"
+        android:layout_below="@+id/GoToFirst"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        style="@style/redbutton_style"
+        android:background="@drawable/button_style"/>
 </RelativeLayout>
