@@ -5,6 +5,13 @@
     android:minWidth="25px"
     android:minHeight="25px">
     <Button
+        android:text="Go to Third"
+        android:layout_width="190.0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:layout_above="@+id/button1"
+        android:layout_centerHorizontal="true" />
+    <Button
         android:text="Go to Second"
         android:layout_width="190.0dp"
         android:layout_height="wrap_content"
@@ -18,4 +25,11 @@
         android:id="@+id/button2"
         android:layout_alignParentLeft="true"
         android:layout_centerVertical="true" />
+    <Button
+        android:text="Go to Fourth"
+        android:layout_width="190.0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4"
+        android:layout_below="@+id/button2"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
